@@ -2,7 +2,7 @@
 description: 자료구조
 ---
 
-# Map
+# 자료구조\(Map\)
 
 ## 1. Map이란?
 
