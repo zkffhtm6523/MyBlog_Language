@@ -28,7 +28,7 @@ description: 자료구조
 
 ## 4. Map의 예시
 
-```text
+```java
 Map<String, String> webtoonList = new HashMap<>();
           webtoonList.put("w_no", "5248");
           webtoonList.put("w_thumbnail", "https://~~~~");
@@ -51,7 +51,7 @@ Map<String, String> webtoonList = new HashMap<>();
 
 ### **- Put\(\) / PutAll\(\)**
 
-```text
+```java
 Map<String, Integer> fruits = new HashMap<>();
 fruits.put("apple", 1);
 fruits.put("banana", 2);
@@ -83,7 +83,7 @@ System.out.println("food: " + food);
 
 ### **- get\(\) / remove\(\)**
 
-```text
+```java
 //get()
 
 System.out.println("banana : "+food.get("banana"));
@@ -97,7 +97,7 @@ System.out.println("banana : "+food.remove("banana"));
 
 ### **- containsKey\(\) / containsValue\(\)**
 
-```text
+```java
 //containsKey()
 
 System.out.println("containsKey(apple): " + fruits.containsKey("apple"));
@@ -117,7 +117,7 @@ System.out.println("containsValue(1): " + fruits.containsValue(1));
 
 > **keySet\(\)** : Set 객체로 리턴 **values\(\)** : Collection 객체로 리턴
 
-```text
+```java
 Map<String, Integer> fruits = new HashMap<>();
 fruits.put("apple", 1);
 fruits.put("banana", 2);
@@ -154,7 +154,7 @@ for (Integer value : values) {
 
 ### **- replace\(\)**
 
-```text
+```java
 //값의 여부와 상관없이 시도함 / 삭제된 value return
 public V replace(K key, V value)
 
