@@ -12,6 +12,7 @@
 
 ## Python
 
+* [String](python/string.md)
 * [pass, continue, break](python/untitled.md)
 * [with](python/with.md)
 
